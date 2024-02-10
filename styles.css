@@ -51,13 +51,17 @@ footer{
     padding: 10px;
     font-size: 1.1rem;
 }
-form{
+.form-container{
     border: 1px solid #c7c7c7;
     padding: 15px;
+    padding-bottom: 20px;
     width: 65vw;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    background-color: #4d364c;
+    border-left: 0px;
+    border-right: 0px;
 }
 .title{
     width: 80%;
@@ -81,10 +85,8 @@ input:focus{
     border: 2px solid blue;
     box-shadow: 1px 1px 10px #3f3f3f;
 }
-form{
-    background-color: #4d364c;
-    border-left: 0px;
-    border-right: 0px;
+.error:focus{
+    border: 2px solid red;
 }
 button{
     background-color: #ffb0dc;
